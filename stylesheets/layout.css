@@ -7,17 +7,11 @@ body {
 article a { 
     color: inherit; /* а — ссылка, инхерит заимствует свойства сестринского элемента*/
 }
-article h1, 
-article h2, 
-article h3, 
-article h4, 
-article p, 
-article ul, 
-article ol, 
-article blockquote { 
+article * { 
     width: 700px; 
     margin: 0 auto;
 }
+/* * = все элементы */
 article h1, 
 article h2, 
 article h3, 
